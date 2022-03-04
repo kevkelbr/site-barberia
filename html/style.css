@@ -1,0 +1,82 @@
+h1 {
+    padding-left: 30px;
+    font-size: 48px;
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+
+}
+
+body {
+    background-color:white;
+}
+
+em strong{
+    color: red;
+}
+
+#missao {
+    font-size: 20px;
+}
+
+#banner {
+    width: 100%;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 20px;
+}
+
+.beneficios {
+    background-color:white ;
+    padding: 30px;
+}
+
+.cabeçalho {
+    background-color: #CCCCCC;
+    padding: 40px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 250px;
+}
+
+#homem {
+    width: 50%;
+}
+
+footer {
+    background: url('/img/bg.jpg');
+    text-align: center;
+    padding: 40px 0
+}
+
+footer p {
+    color: white;
+    margin-top: 20px;
+}
+
+.homemCortando {
+    align-items: center;
+}

@@ -1,0 +1,308 @@
+header {
+    background: #BBBBBB;
+    padding: 20px auto;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+    text-decoration: underline;
+
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 6px double black;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.produtos li:hover {
+    border-color: rgb(124, 122, 8);
+}
+
+.produtos li:active {
+    color: greenyellow;
+}
+
+.produtos li:hover h2 {
+    font-size: 32px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 15px;
+}
+
+.preco {
+    font: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer {
+    text-align: center;
+    background: url("/img/bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 0;
+}
+
+.main-contato {
+    width: 940px;
+    margin: 0 auto
+}
+
+form {
+    margin: 100px auto
+}
+
+form label,
+form legend {
+    display: block;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.input-padrao {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    width: 50%;
+}
+
+.check-box {
+    margin-bottom: 15px;
+}
+
+.horario {
+    margin: 20px 0px 10px 00px
+}
+
+#botao-submit {
+    color: white;
+    background-color: green;
+    padding: 30px 80px;
+    border: green;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+
+}
+
+#botao-submit:hover {
+    background-color: rgb(2, 51, 2);
+    transform: scale(1.2)
+}
+
+
+table {
+    margin: 20px 0 40px
+}
+
+thead {
+    background-color: #555555;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #555555;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+/* css da página inicial */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    font-family: 'Lobster', cursive;
+}
+
+.principal {
+    padding: 3em 0;
+    background-color: #FEFEFE;
+    width: 940px;
+    margin: 0 auto
+}
+
+.principal p {
+    margin: 0 0 1em
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.conteudo-beneficios {
+    width: 800px;
+    margin: 0 auto;
+    
+}
+
+.lista-beneficio {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lista-beneficio li{
+   line-height: 1.5em;
+}
+
+.lista-beneficio li:before {
+    content: "✭";
+}
+
+
+.lista-beneficio li:nth-child(2n){
+    font-weight: bold;
+}
+
+.lista-beneficio li:hover{
+    font-size: 1.3em;
+    cursor: pointer;
+    transition: 0.5s all
+
+ }
+
+
+.beneficios {
+    width: 100%;
+    
+    
+}
+
+.beneficios-img {
+    width: 63%;
+    box-shadow: 10px 10px 30px 20px  #000000;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin-right: 2em;
+}
+
+.mapa {
+    padding: 2em 0;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.video-div {
+    text-align: center;
+    padding-top: 8em ;
+    padding-bottom: 8em;
+    
+}
+
+.video{
+    box-shadow: 0px 0px 50px 15px  #000000;
+}
+
+.degrade {
+    background: linear-gradient(#ffffff, #292929);
+}
+
+footer p {
+    color: white
+}
+
+@media screen and (max-width: 480px) {
+    .caixa, .principal, .mapa, .beneficios, .conteudo-beneficios, .video-div, .video, .mapa-conteudo, .produtos, .main-contato {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav  {
+        position: static;
+    }
+
+    nav ul{
+        text-align: center;
+    }
+
+    .produtos li {
+        display: block;
+        width: 80%;
+        margin: 1em auto
+    }
+    .produtos 
+    }
+}
